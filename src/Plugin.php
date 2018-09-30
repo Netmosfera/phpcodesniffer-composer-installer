@@ -281,7 +281,7 @@ class Plugin implements PluginInterface, EventSubscriberInterface
         $finder->files()
             ->ignoreUnreadableDirs()
             ->ignoreVCS(true)
-            ->depth('< 4')
+            ->depth('< 5')
             ->name('ruleset.xml')
             ->in($searchPaths);
 
